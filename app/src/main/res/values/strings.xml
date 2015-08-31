@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleAnimation</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="show_container">Show container</string>
+    <string name="hide_container">Hide Container</string>
+</resources>
