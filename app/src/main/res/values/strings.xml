@@ -4,4 +4,5 @@
     <string name="hello_world">Hello world!</string>
     <string name="show_container">Show container</string>
     <string name="hide_container">Hide Container</string>
+    <string name="start_activity">Start Activity</string>
 </resources>

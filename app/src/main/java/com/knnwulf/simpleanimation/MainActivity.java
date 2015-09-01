@@ -1,5 +1,6 @@
 package com.knnwulf.simpleanimation;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -22,6 +23,14 @@ public class MainActivity extends AppCompatActivity {
 
         Button mShowContainer = (Button) findViewById(R.id.show_container);
         Button mHideContainer = (Button) findViewById(R.id.hide_container);
+        Button mStartActivity = (Button) findViewById(R.id.start_activity);
+        mStartActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ScaleAnimationActivity.class));
+            }
+        });
+
         mContainer = (LinearLayout) findViewById(R.id.container);
 
         mShowContainer.setOnClickListener(showContainer);
